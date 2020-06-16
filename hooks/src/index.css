@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #8ed466;
+}
+
+.main-div{
+  width: 50%;
+  height: 40vh;
+  display: -ms-flexbox;
+  flex-direction: column;
+  background-color: wheat;
+  margin-left: 32%;
+  margin-top: 76px;
+  border-radius: 50px;
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top:10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid purple;
+  outline: none;
+  margin-left: 60px;
+}
+
+button{
+  
+  width: 45%;
+  border-color: transparent;
+  background-color: purple;
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+  background-color: green;
+}
+.heading{
+  background-color: purple;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 78px;
+}
+
+ol{
+  margin-top: 40px;
+}
+
+ol li{
+  padding-left: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #537f8a;
+  text-transform: capitalize;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style > span{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  border-radius: 50%;
+  margin: 0px 15px 0px 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 2px;
+}
+
+.todo_style > span:hover{
+  background-color: red;
+}

@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'redux' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData redux
+8 silly fetchNamedPackageData redux
+9 silly mapToRegistry name redux
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/redux
+13 verbose request uri https://registry.npmjs.org/redux
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:18:27 PM
+16 verbose request id eca1fe8118bf7256
+17 verbose etag W/"9272185760ee0787371049fc69f14ecb"
+18 verbose lastModified Tue, 24 Dec 2019 02:23:04 GMT
+19 http request GET https://registry.npmjs.org/redux
+20 http 304 https://registry.npmjs.org/redux
+21 verbose headers { date: 'Mon, 08 Jun 2020 07:48:28 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=d1f07f78046fd29882fd9816417bde7dd1591602508; expires=Wed, 08-Jul-20 07:48:28 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5a0102bcf920dd06-SIN',
+21 verbose headers   age: '1366',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"9272185760ee0787371049fc69f14ecb"',
+21 verbose headers   'last-modified': 'Tue, 24 Dec 2019 02:23:04 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '0334800a1f0000dd067a9a4200000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 08 Jun 2020 07:48:28 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=d1f07f78046fd29882fd9816417bde7dd1591602508; expires=Wed, 08-Jul-20 07:48:28 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5a0102bcf920dd06-SIN',
+22 silly get     age: '1366',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"9272185760ee0787371049fc69f14ecb"',
+22 silly get     'last-modified': 'Tue, 24 Dec 2019 02:23:04 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '0334800a1f0000dd067a9a4200000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/redux from cache
+24 verbose get saving redux to /home/sonuverma/.npm/registry.npmjs.org/redux/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: Refusing to install redux as a dependency of itself
+42 verbose stack     at checkSelf (/usr/share/npm/lib/install/validate-args.js:40:14)
+42 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+42 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+42 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+42 verbose stack     at /usr/share/npm/lib/install/validate-args.js:15:5
+42 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+42 verbose stack     at Array.forEach (<anonymous>)
+42 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+42 verbose stack     at Array.forEach (<anonymous>)
+42 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+43 verbose cwd /var/www/html/react/redux
+44 error Linux 5.3.0-53-generic
+45 error argv "/usr/bin/node" "/usr/bin/npm" "install" "redux"
+46 error node v8.10.0
+47 error npm  v3.5.2
+48 error code ENOSELF
+49 error Refusing to install redux as a dependency of itself
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
